@@ -349,7 +349,7 @@ class BAMBU_OT_import_3mf(bpy.types.Operator):
         volume = PRINTER_VOLUMES[props.printer_model]
 
         # Import 3MF using the Import3MF operator with mm native scale
-        bpy.ops.import_mesh.3mf(filepath=self.filepath, scale_unit='MM_NATIVE')
+        getattr(bpy.ops.import_mesh, '3mf')(filepath=self.filepath, scale_unit='MM_NATIVE')
 
         # Get the imported object(s)
         imported = context.selected_objects
@@ -423,7 +423,7 @@ class BAMBU_OT_export_3mf(bpy.types.Operator):
             return {'CANCELLED'}
 
         # Export using the Export3MF operator at 1:1 scale
-        bpy.ops.export_mesh.3mf(
+        getattr(bpy.ops.export_mesh, '3mf')(
             filepath=self.filepath,
             use_selection=True,
             global_scale=1.0
