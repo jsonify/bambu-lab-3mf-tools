@@ -1,0 +1,20 @@
+  schema_version = "1.0.0"                                                         
+  id = "bambu_lab_3mf_tools"                                                               
+  version = "2.0.0"                         
+  name = "Bambu Lab 3MF Tools"                                 
+  tagline = "3MF import/export with Bambu Lab printer setup tools"
+  maintainer = "jsonify <your@email.com>"
+  type = "add-on"
+
+  blender_version_min = "5.0.0"
+
+  license = ["SPDX:AGPL-3.0-or-later"]
+  website = "https://github.com/jsonify/bambu-lab-3mf-tools"
+
+  [build]
+  paths_exclude_pattern = [
+      "__pycache__/",
+      ".*",
+      "*.zip",
+      "CLAUDE.md"
+  ]
