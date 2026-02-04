@@ -72,4 +72,4 @@ Extended and maintained by jsonify (2025).
 
 ## License
 
-This add-on is licensed under the [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.html) (AGPL-3.0).
+This add-on is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html) (GPL-3.0).

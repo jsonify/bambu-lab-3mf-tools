@@ -8,7 +8,7 @@
 
   blender_version_min = "5.0.0"
 
-  license = ["SPDX:AGPL-3.0-or-later"]
+  license = ["SPDX:GPL-3.0-or-later"]
   website = "https://github.com/jsonify/bambu-lab-3mf-tools"
 
   [build]
