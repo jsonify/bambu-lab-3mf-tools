@@ -1,5 +1,5 @@
-# Blender add-on to import and export 3MF files.
-# Copyright (C) 2020 Ghostkeeper
+# Bambu Lab 3MF Tools - 3MF export functionality.
+# Original 3MF export code by Ghostkeeper (2020).
 # Copyright (C) 2025 jsonify
 # This add-on is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General
 # Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any

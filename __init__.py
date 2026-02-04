@@ -1,5 +1,5 @@
-# Blender add-on to import and export 3MF files.
-# Copyright (C) 2020 Ghostkeeper
+# Bambu Lab 3MF Tools - Blender add-on for Bambu Lab 3D printer workflows.
+# 3MF import/export based on original work by Ghostkeeper (2020).
 # Copyright (C) 2025 jsonify
 #
 # This add-on is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General
@@ -14,27 +14,27 @@
 # <pep8 compliant>
 
 bl_info = {
-    "name": "3MF format",
-    "author": "Ghostkeeper, jsonify",
+    "name": "Bambu Lab 3MF Tools",
+    "author": "jsonify (based on 3MF addon by Ghostkeeper)",
     "version": (2, 0, 0),
     "blender": (5, 0, 0),
     "location": "File > Import-Export, View3D > Sidebar > Bambu Lab",
-    "description": "Import-Export 3MF files with Bambu Lab printer integration",
+    "description": "3MF import/export with Bambu Lab printer setup tools",
     "support": 'COMMUNITY',
     "category": "Import-Export"
 }
 
 """
-Import and export 3MF files in Blender.
+Bambu Lab 3MF Tools - Blender add-on for Bambu Lab 3D printer workflows.
 
-Original add-on by Ghostkeeper (2020).
-Updated for Blender 5.0 compatibility by jsonify (2025).
+3MF import/export functionality based on original work by Ghostkeeper (2020).
+Extended and maintained by jsonify (2025).
 
-Changes in v2.0.0:
-- Fixed operator initialization for Blender 4.0+ API changes
-- Fixed context override for view3d.view_selected
-- Added import unit scale options for 3D printing workflows
-- Integrated Bambu Lab printer setup functionality
+Features:
+- Import/export 3MF files with unit scale options
+- Bambu Lab printer setup (build volume, build plate visualization)
+- Model fit checking and centering for supported printers
+- Millimeter workflow configuration
 """
 
 import bpy

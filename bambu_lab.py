@@ -1,5 +1,5 @@
-# Blender add-on module for Bambu Lab 3D printer setup.
-# Part of the 3MF format add-on - provides sidebar panel for printer workflow setup.
+# Bambu Lab 3MF Tools - Printer setup and workflow functionality.
+# Provides sidebar panel for Bambu Lab printer configuration.
 # Copyright (C) 2025 jsonify
 #
 # This add-on is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General
